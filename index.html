@@ -29,21 +29,8 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
   }
-
-  /* Background grid */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      linear-gradient(var(--grid) 1px, transparent 1px),
-      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-    background-size: 40px 40px;
-    pointer-events: none;
-    z-index: 0;
-  }
-
   .container {
     position: relative;
     z-index: 1;
